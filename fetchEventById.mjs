@@ -60,6 +60,7 @@ const client = new GraphQLClient(endpoint, {
 //   }
 // }
 
+sd
 
 async function fetchEventById(groupId) {
   const currentDate = new Date().toISOString();

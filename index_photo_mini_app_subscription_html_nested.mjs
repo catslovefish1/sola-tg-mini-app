@@ -60,6 +60,7 @@ const setCommands = async () => {
     }
 };
 
+
 app.get('/api/groups', async (req, res) => {
     const groupsData = await fetchGroups();
     res.json(groupsData.groups);
